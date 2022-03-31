@@ -8,6 +8,7 @@ namespace Singleton
 {
     public sealed class Singleton
     {
+        private Singleton() { }
         private static Singleton _instance;
 
         // This is the static method that controls the access to the singleton
